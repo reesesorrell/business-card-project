@@ -1,1 +1,1 @@
-# cv-project
+This is a user cv creator project made with React
