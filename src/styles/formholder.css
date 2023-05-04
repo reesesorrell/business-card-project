@@ -1,0 +1,26 @@
+.Formholder {
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 7px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-title-text {
+    font-size: 20px;
+}
+
+input[type=text] {
+    margin-top: 15px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 8px;
+}

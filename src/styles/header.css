@@ -1,0 +1,15 @@
+.Header {
+    width: 100%;
+    height: 100px;
+    background-color: lightslategray;
+}
+
+.header-text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(228, 228, 228);
+    font-size: 38px;
+}
