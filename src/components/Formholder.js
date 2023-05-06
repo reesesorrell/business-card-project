@@ -4,6 +4,7 @@ import '../styles/header.css';
 import Personalinfo from './Personalinfo';
 import Educationinfo from './Educationinfo';
 import Workinfo from './Workinfo';
+import GeneratedCV from './GeneratedCV';
 
 class Formholder extends Component {
   constructor() {
@@ -56,6 +57,7 @@ class Formholder extends Component {
                 <Workinfo onChange={this.handleChange}/>
             </div>
         </form>
+        <GeneratedCV info={this.state.info}/>
       </div>
     )
   }
