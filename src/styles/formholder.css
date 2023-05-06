@@ -2,7 +2,9 @@
     width: 800px;
     margin: auto;
     margin-top: 50px;
-    padding: 20px;
+    margin-bottom: 50px;
+    padding: 30px;
+    padding-top: 0;
     background-color: rgb(233, 233, 233);
     border-radius: 7px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
@@ -15,6 +17,7 @@
 
 .input-title-text {
     font-size: 20px;
+    margin-top: 30px;
 }
 
 input[type=text] {
