@@ -51,9 +51,9 @@ class Formholder extends Component {
       <div className='Formholder'>
         <form>
             <div className='input-section'>
-                <Personalinfo />
-                <Educationinfo />
-                <Workinfo />
+                <Personalinfo onChange={this.handleChange}/>
+                <Educationinfo onChange={this.handleChange}/>
+                <Workinfo onChange={this.handleChange}/>
             </div>
         </form>
       </div>
