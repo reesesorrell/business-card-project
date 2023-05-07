@@ -49,8 +49,8 @@ class Formholder extends Component {
 
   render() {
     return (
-      <div className='Formholder'>
-        <form>
+      <div>
+        <form className='Formholder'>
             <div className='input-section'>
                 <Personalinfo onChange={this.handleChange}/>
                 <Educationinfo onChange={this.handleChange}/>
