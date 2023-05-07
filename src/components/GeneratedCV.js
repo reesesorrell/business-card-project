@@ -17,6 +17,8 @@ class GeneratedCV extends Component {
             <div className="generated-cv">
                 <div className="side-bar">
                     <div className="contact-section">
+                        <div className="contact-section-title section-title">Contact</div>
+                        <hr className="contact-line"></hr>
                         <div className="contact-bundle">
                             <div className="contact-title">Phone</div>
                             <div className="contact-info">{this.props.info['phone-number']}</div>
@@ -40,16 +42,20 @@ class GeneratedCV extends Component {
                             {this.props.info['title']}
                         </div>
                     </div>
-                    <div className="experience-holder">
-                        <div className="experience-date">{this.props.info['work-start'] + ' - ' + this.props.info['work-end']}</div>
-                        <div className="experience-title"> {this.props.info['position']}</div>
-                        <div className="experience-company">{this.props.info['company']}</div>
+                    <div className="experience-section">
+                        <div className="experience-section-title section-title">Current Work</div>
+                        <hr className="main-line"></hr>
+                        <div className="date item">{this.props.info['work-start'] + ' - ' + this.props.info['work-end']}</div>
+                        <div className="experience-title item"> {this.props.info['position']}</div>
+                        <div className="experience-company item">{this.props.info['company']}</div>
                     </div>
                     <div className="education-section">
-                        <div className="degree-date">{this.props.info['school-start'] + ' - ' + this.props.info['school-end']}</div>
-                        <div className="degree-name">{this.props.info['degree']}</div>
-                        <div className="university-name">{this.props.info['university']}</div>
-                        <div className="university-location">{this.props.info['city'] + ', ' + this.props.info['state']}</div>
+                        <div className="education-section-title section-title">Education</div>
+                        <hr className="main-line"></hr>
+                        <div className="date item">{this.props.info['school-start'] + ' - ' + this.props.info['school-end']}</div>
+                        <div className="degree-name item">{this.props.info['degree']}</div>
+                        <div className="university-name item">{this.props.info['university']}</div>
+                        <div className="university-location item">{this.props.info['city'] + ', ' + this.props.info['state']}</div>
                     </div>
                 </div>
             </div>

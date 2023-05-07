@@ -10,7 +10,7 @@ class Header extends Component {
     return (
       <div className='Header'>
         <div className='header-text'>
-            CV Creator
+            Business Card Creator
         </div>
       </div>
     )

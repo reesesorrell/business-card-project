@@ -10,11 +10,78 @@
 }
 
 .side-bar {
-    background-color: burlywood;
+    background-color: purple;
     padding-top: 150px;
+    padding-left: 50px;
+    color: white;
 }
 
 .name-text {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 38px;
+    margin-bottom: 5px;
+}
+
+.title-holder {
+    width: 100%;
+    height: 105px;
+    padding-top: 45px;
+}
+
+.main-contents {
+    padding-left: 70px;
+}
+
+.section-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contact-line {
+    width: 70%;
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    margin-top: 3px;
+}
+
+.contact-bundle {
+    height: 65px;
+}
+
+.contact-title {
+    font-weight: bold;
+}
+
+.title-text {
+    font-size: 17px;
+    font-style: italic;
+    padding-left: 1px;
+}
+
+.experience-section,
+.education-section {
+    height: 140px;
+}
+
+.main-line {
+    width: 97%;
+    text-align: left;
+    margin-left: 0;
+}
+
+.date {
+    font-weight: 600;
+}
+
+.item {
+    margin-top: 5px;
+}
+
+.degree-name,
+.experience-title {
+    font-style: italic;
 }

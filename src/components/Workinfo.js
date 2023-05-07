@@ -13,7 +13,7 @@ class Workinfo extends Component {
     }
     return (
         <div className='input-section'>
-            <div className='input-title-text'>Work Information</div>
+            <div className='input-title-text'>Current Work Information</div>
             {rows}
         </div>
     )
