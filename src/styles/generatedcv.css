@@ -3,7 +3,7 @@
     width: 800px;
     height: 500px;
     background-color: whitesmoke;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     display: grid;
     grid-template-columns: 250px 500px;
     box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;;

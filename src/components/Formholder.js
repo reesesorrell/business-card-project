@@ -5,6 +5,7 @@ import Personalinfo from './Personalinfo';
 import Educationinfo from './Educationinfo';
 import Workinfo from './Workinfo';
 import GeneratedCV from './GeneratedCV';
+import Footer from './Footer';
 
 class Formholder extends Component {
   constructor() {
@@ -58,6 +59,7 @@ class Formholder extends Component {
             </div>
         </form>
         <GeneratedCV info={this.state.info}/>
+        <Footer />
       </div>
     )
   }
